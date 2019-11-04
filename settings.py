@@ -19,7 +19,7 @@ LOG_LEVEL = 'DEBUG'     #INFO_ERROR
 # LOG_FILE = 'jobparser_log.txt'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'jobparser (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True

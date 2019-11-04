@@ -10,7 +10,7 @@ class SuperjobRuSpider(scrapy.Spider):
     def __init__(self, vacancy = None):
         super(SuperjobRuSpider, self).__init__()
         self.start_urls = [
-            f'https://hh.ru/search/vacancy?only_with_salary=false&clusters=true&area=1&enable_snippets=true&salary=&st=searchVacancy&text=%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%82%D0%BE%D1%80'
+            f'https://www.superjob.ru/vacancy/search/?keywords=Python'
         ]
 
     def parse(self, response):
